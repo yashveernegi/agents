@@ -1,1 +1,1 @@
-# agents-projects
+# agentic-projects
