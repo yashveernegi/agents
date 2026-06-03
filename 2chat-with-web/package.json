@@ -1,0 +1,21 @@
+{
+  "name": "2chat-with-web",
+  "version": "1.0.0",
+  "description": "website-chatbot/\r │\r ├── package.json\r ├── index.js\r │\r ├── config/\r │   └── chroma.js\r │\r ├── services/\r │   ├── embedding.js\r │   ├── scraper.js\r │   ├── chunker.js\r │   ├── indexWebsite.js\r │   └── search.js\r │\r └── routes/\r     └── chat.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "axios": "^1.8.1",
+    "cheerio": "^1.0.0",
+    "chromadb": "^1.10.0",
+    "express": "^4.21.2",
+    "puppeteer": "^25.1.0"
+  }
+}
